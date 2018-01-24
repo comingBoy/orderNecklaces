@@ -1,0 +1,13 @@
+<!--pages/catchPic/catchPic.wxml-->
+
+<canvas style="width: {{width}}px; height: {{height}}px"  canvas-id="firstCanvas">
+</canvas>
+
+<canvas style="width: 300px; height: 300px;" bindtouchmove='bindtouchmove' canvas-id="secondCanvas">
+</canvas>
+
+<view class='secondCanvas'>测试</view>
+
+<button bindtap='chooseImg'>选择图片</button>
+<button bindtap='confirm'>确认</button>
+<button bindtap='catchPic'>截图</button>

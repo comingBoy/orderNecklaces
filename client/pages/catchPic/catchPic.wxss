@@ -1,0 +1,5 @@
+/* pages/catchPic/catchPic.wxss */
+.secondCanvas{
+  font-size: 40rpx;
+  font-family: '楷体'
+}
