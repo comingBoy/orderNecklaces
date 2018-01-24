@@ -1,0 +1,13 @@
+/* pages/index0/index0.wxss */
+
+.necklacesBox{
+  display: flex;
+  width: 90%;
+  margin-bottom: 10rpx;
+  }
+.picBox{
+  display: flex;
+  width: 100%;
+  height:400rpx;
+
+}

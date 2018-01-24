@@ -1,0 +1,5 @@
+<view class="container">
+  <view class='necklacesBox' wx:for='{{pictures}}'>
+  <image class='picBox' src='{{item.pages}}' mode='aspectFill'></image>
+  </view>
+</view>

@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/index0/index0",
     "pages/catchPic/catchPic",
     "pages/index/index",
     "pages/addCgi/addCgi"
@@ -10,5 +11,32 @@
     "navigationBarBackgroundColor": "#F6F6F6",
     "navigationBarTitleText": "Wafer Quick Start",
     "navigationBarTextStyle":"black"
+  },
+
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#707070",
+    "borderStyle": "black",
+    "backgroundColor":"white",
+    "list":[
+      { 
+        "iconPath":"pictures/list.png",
+        "selectedIconPath":"pictures/listS.png",
+        "pagePath": "pages/index0/index0",
+        "text": "项链"
+      },
+      { 
+        "iconPath": "pictures/collection.png",
+        "selectedIconPath": "pictures/collectionS.png",
+        "pagePath": "pages/catchPic/catchPic",
+        "text": "我的定制"
+      },
+      { 
+        "iconPath": "pictures/my.png",
+        "selectedIconPath": "pictures/myS.png",
+        "pagePath": "pages/index/index",
+        "text": "我的信息"
+      }
+    ]
   }
 }
